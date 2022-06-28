@@ -1,0 +1,119 @@
+@font-face {
+    font-family: "myFont"; 
+    src: url("./myfont.otf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
+body {
+    background-color: #c77582;
+}
+.content {
+    font-family: "myFont";
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;  /*повысоте ничего по ширене - по центру */
+    min-width: 30%;
+    max-width: 1000px;
+    
+}
+.container {
+    max-width: 600px;
+    margin-top: 20px;
+    background-color: #ffffff;
+    padding-top: 0px;
+    border-radius: 10px;
+}
+.head {
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+.number {
+    font-size: 13px;
+}
+.statys {
+    width: 300px;
+    max-width: 300px;
+    display: inline-flex;
+    background-color: #5467;
+    padding: 60px;
+    border-radius: 0px;
+
+}
+.todo {
+    padding: 10px;
+}
+.note {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.note:hover {
+    background-color: #C77582;
+    border-radius: 5px;
+}
+.checkBoxArea {
+    width: 10%;
+}
+.textArea {
+    width: 70%;
+    font-size: 12px;
+    line-height: 10px;
+    overflow: none;
+}
+.buttonArea {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+.buttonArea button {
+    background-color: #FAFBFC;
+    border: 1px solid rgba(27, 31, 35, 0.15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+    box-sizing: border-box;
+    color: #24292E;
+    font-size: 9px;
+}
+.newTodo {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.inputArea {
+    width: 75%;
+    display: flex;
+}
+.inputArea input {
+    width: 100%;
+    background-color: #FAFBFC;
+    border: 1px solid rgba(27, 31, 35, 0.15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+    box-sizing: border-box;
+    color: #24292E;
+    font-size: 9px;
+    padding: 3px;
+}
+
+.addButtonArea {
+    width: 20%;
+}
+.addButtonArea button {
+    background-color: #FAFBFC;
+    border: 1px solid rgba(27, 31, 35, 0.15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+    box-sizing: border-box;
+    color: #24292E;
+    font-size: 9px;
+}
+
+.message {
+    border-radius: 15px;
+    width: 80%;
+    height: 30px;
+}
+.textContent {
+
+}
